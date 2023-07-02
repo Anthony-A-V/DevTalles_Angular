@@ -9,8 +9,6 @@ export class FullScreenPageComponent implements AfterViewInit {
   @ViewChild('map') divMap?: ElementRef;
 
   ngAfterViewInit(): void {
-    console.log(this.divMap);
-
     if (!this.divMap) throw 'El elemento HTML no fue encontrado';
 
     const map = new Map({
