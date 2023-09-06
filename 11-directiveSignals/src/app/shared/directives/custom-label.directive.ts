@@ -20,7 +20,7 @@ export class CustomLabelDirective implements OnInit {
   }
 
   constructor(private el: ElementRef<HTMLElement>) {
-    // console.log('constructo de la directiva')
+    // console.log('constructor de la directiva')
     // console.log(el);
     this.htmlElement = el;
   }
